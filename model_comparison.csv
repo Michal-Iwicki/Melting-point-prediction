@@ -1,0 +1,6 @@
+model,mae,best_params
+RandomForest,32.63000301649618,"{'model__max_depth': 30, 'model__max_features': 'log2', 'model__min_samples_leaf': 1, 'model__min_samples_split': 2, 'model__n_estimators': 300}"
+GradientBoosting,30.922921837810865,"{'model__learning_rate': 0.05, 'model__max_depth': 7, 'model__min_samples_leaf': 1, 'model__min_samples_split': 10, 'model__n_estimators': 300, 'model__subsample': 0.7}"
+SVR,32.16360854804397,"{'model__C': 50, 'model__degree': 2, 'model__gamma': 0.1, 'model__kernel': 'rbf'}"
+Ridge,36.85757390640761,"{'model__alpha': 1, 'model__solver': 'sparse_cg'}"
+KNN,37.03868527452184,"{'model__n_neighbors': 7, 'model__p': 1, 'model__weights': 'distance'}"
